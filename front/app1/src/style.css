@@ -1,0 +1,146 @@
+*{
+    background-color: #000;
+}
+
+.App {
+    width: 1024px;
+    background-color: black;
+    
+}
+
+.container {
+    justify-content: center;
+    background-color: #000;
+    
+}
+
+.navB {
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    border-radius: 30px;
+    border: 3px solid teal;
+}
+
+.navB .logo-img {
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.name_, .out, .write_ {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: purple;
+    font-style: italic;
+}
+
+.Posts {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-top: 100px;
+    background-color: #000;
+    color: white;
+}
+.Posts .file{
+    background: none;
+}
+.Posts button {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    border: 3px solid teal;
+    color: teal;
+    background-color: powderblue;
+}
+
+.Posts button:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    border: 3px solid powderblue;
+    color: powderblue;
+    background-color: teal;
+}
+
+.Post {
+    display: flex;
+    gap: 50px;
+}
+
+.Post:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
+.contenu {
+    background-color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.auth, .auth2, .writeP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+}
+
+.choix{
+    display: flex;
+    gap: 20px;
+}
+.auth h1, .auth2 h1, .writeP h1 {
+    color: teal;
+    margin-bottom: 20px;
+}
+
+.auth form, .auth2 form, .writeP form {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    color: white;
+    gap: 20px;
+}
+
+.auth form input, .auth2 form input, .writeP form input ,.writeP form textarea{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 3px solid gray;
+}
+
+.auth form .b, .auth2 form .b, .writeP form .b {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    border: 3px solid teal;
+    color: teal;
+    background-color: powderblue;
+}
+
+.auth form .b input, .auth2 form .b input, .writeP form .b input {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: powderblue;
+}
+
+.auth form .b:hover, .auth2 form .b:hover, .writeP form .b:hover {
+    border: 3px solid powderblue;
+    color: powderblue;
+    background-color: teal;
+}
+
+.auth form .b:hover input, .auth2 form .b:hover input, .writeP form .b:hover input {
+    background-color: teal;
+}
